@@ -11,6 +11,7 @@
 		D9D7FA112A42453B00508E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7FA102A42453B00508E36 /* ContentView.swift */; };
 		D9D7FA132A42453C00508E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D7FA122A42453C00508E36 /* Assets.xcassets */; };
 		D9D7FA162A42453C00508E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D7FA152A42453C00508E36 /* Preview Assets.xcassets */; };
+		D9D7FA1F2A42C49100508E36 /* flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7FA1E2A42C49100508E36 /* flags.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D9D7FA102A42453B00508E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9D7FA122A42453C00508E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9D7FA152A42453C00508E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D7FA1E2A42C49100508E36 /* flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flags.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D9D7FA0E2A42453B00508E36 /* GuessTheFlagApp.swift */,
 				D9D7FA102A42453B00508E36 /* ContentView.swift */,
+				D9D7FA1E2A42C49100508E36 /* flags.swift */,
 				D9D7FA122A42453C00508E36 /* Assets.xcassets */,
 				D9D7FA142A42453C00508E36 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D7FA1F2A42C49100508E36 /* flags.swift in Sources */,
 				D9D7FA112A42453B00508E36 /* ContentView.swift in Sources */,
 				D9D7FA0F2A42453B00508E36 /* GuessTheFlagApp.swift in Sources */,
 			);
@@ -275,11 +279,13 @@
 				DEVELOPMENT_TEAM = 57G8J46Z2T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Flag";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +310,13 @@
 				DEVELOPMENT_TEAM = 57G8J46Z2T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Flag";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
