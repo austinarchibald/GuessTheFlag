@@ -23,6 +23,18 @@ struct ContentView: View {
     
     private let defaults = UserDefaults.standard
     
+//    // View Composition Challenge
+//    struct FlagImage: View {
+//        let name: String
+//        var body: some View {
+//            Image(name)
+//                .resizable()
+//                .scaledToFit()
+//                .frame(maxWidth: 200, maxHeight: 150)
+//                .shadow(radius:10)
+//        }
+//    }
+    
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -50,12 +62,12 @@ struct ContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
+                            // FlagImage(name: countries[number]) // ViewComp challenge
                             Image(countries[number])
                                 .resizable()
                                 .scaledToFit()
                                 .frame(maxWidth: 200, maxHeight: 150)
-                                .shadow(radius:10) // light shadow effect, no color: translucent black, no x/y: centered
-//                                .padding()
+                                .shadow(radius:10)
                         }
                     }
                 }
@@ -145,6 +157,21 @@ struct ContentView: View {
         highScore = savedHighScore
     }
 }
+
+//// ViewModifier challenge
+//struct TitleModifier: ViewModifier {
+//    func body(content: Content) -> some View {
+//        content
+//        .font(.largeTitle)
+//        .foregroundColor(.blue)
+//    }
+//}
+//
+//extension View {
+//    func title() -> some View {
+//        modifier(TitleModifier())
+//    }
+//}
 
 #Preview {
     ContentView()
